@@ -1,0 +1,44 @@
+<!-- Create form fields firstName,lastName,email,dob,age,designation,address also create button.
+Add event listener to button and on clicking button page should be redirected to new page and
+values should be displayed in JSON format in the console
+e.g : 
+    result = {
+    firstName:'test',
+    lastName:'test',
+    email:'test',
+    dob:'1/1/1',
+    age:'321',
+    designation:'test',
+    address:'test',
+} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="DOB">DOB:</label><br>
+        <input type="text" id="DOB" name="DOB"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br>
+        <label for="designation">Designation:</label><br>
+        <input type="text" id="designation" name="designation"><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address"><br>
+   
+        <input type="button" id="submitButton" value="Submit">
+      </form> 
+    <script src="test3.js"></script>
+</body>
+</html>
